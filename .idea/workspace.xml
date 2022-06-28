@@ -4,26 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cce7a97b-60f9-470e-b9ae-5653e22b1c25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AddressPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DeliveryAddressDetailsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/OrderConfirmedPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ProductListPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testdata/testada.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AccountPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AddressPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DeliveryAddressDetailsPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OrderConfirmedPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ProductListPageTest.java" afterDir="false" />
+    <list default="true" id="cce7a97b-60f9-470e-b9ae-5653e22b1c25" name="Changes" comment="3/7 test failed">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/msedgedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/operadriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testdata/testada.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testdata/testdata.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AddressPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddressPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeliveryAddressDetailsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeliveryAddressDetailsPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OrderConfirmedPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrderConfirmedPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProductListPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductListPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +46,72 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager" selected="TestNG.AddressPageTest.verifyNoDeliveryAddress">
+    <configuration name="AddressPageTest.verifyNoDeliveryAddress" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Page_Object_Model" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AddressPageTest" />
+      <option name="METHOD_NAME" value="verifyNoDeliveryAddress" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Page_Object_Model" type="TestNG">
+      <module name="Page_Object_Model" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Page_Object_Model" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.Page_Object_Model" />
+      <item itemvalue="TestNG.&lt;default&gt;" />
+      <item itemvalue="TestNG.AddressPageTest.verifyNoDeliveryAddress" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AddressPageTest.verifyNoDeliveryAddress" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,6 +121,14 @@
       <option name="presentableId" value="Default" />
       <updated>1656417502963</updated>
     </task>
+    <task id="LOCAL-00001" summary="Creation of POM-exercise structure">
+      <created>1656420137254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656420137254</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,5 +141,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creation of POM-exercise structure" />
+    <MESSAGE value="3/7 test failed" />
+    <option name="LAST_COMMIT_MESSAGE" value="3/7 test failed" />
   </component>
 </project>
